@@ -9,27 +9,27 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "Blog Post 2",
             date: "2023-01-02",
             content: "This is the second blog post content."
-        }
+        },
         {
             title: "Blog Post 3",
             date: "2023-01-02",
             content: "Test 1234"
-        }
+        },
         {
             title: "Blog Post 3",
             date: "2023-01-02",
             content: "Test 1234"
-        }
+        },
         {
             title: "Blog Post 3",
             date: "2023-01-02",
             content: "Test 1234"
-        }
+        },
         {
             title: "Blog Post 3",
             date: "2023-01-02",
             content: "Test 1234"
-        }
+        },
         // Add more blog posts here
     ];
 
