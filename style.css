@@ -21,7 +21,7 @@ main {
 }
 
 article {
-    background: #fff;
+    background: rgb(237, 221, 247);
     padding: 20px;
     margin-bottom: 20px;
 }
@@ -38,12 +38,14 @@ button {
 }
 form {
     font-size: medium;
+    color: #fff;
 }
 
 input[type=text], input[type=text] {
     font-size: medium;
+    color: #fff;
 }
 
 input[type=submit] {
-    font-size: medium;
+    font-size: larger;
 }

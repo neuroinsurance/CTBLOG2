@@ -6,7 +6,25 @@
     <title>Turner Tales</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-
+    <title>Background Image Example</title>
+<style>
+  body {
+    /* Set the background image on the body element */
+    background-image: url('background_image.png');
+    
+    /* Make the background image cover the entire body */
+    background-size: cover;
+    
+    /* Set the background image to no-repeat */
+    background-repeat: no-repeat;
+    
+    /* Fix the background image so that it does not scroll with the page */
+    background-attachment: fixed;
+    
+    /* Set the starting position of the background image */
+    background-position: center center;
+  }
+</style>
 </head>
 <body>
     <header>
@@ -16,7 +34,7 @@
         </div>
     </header>
     <form id="myForm">
-        <label for="name">Hero name:</label>
+        <label for="name">Hero Name:</label>
         <input type="text" id="heroName" name="heroName"><br><br>
     
         <label for="animal">Animal Companion:</label>
@@ -25,7 +43,7 @@
         <label for="personality">Personality Trait</label>
         <input type="text" id="personality" name="personality"><br><br>
     
-        <input type="submit" value="Submit">
+        <input type="submit" value="Create Story">
     </form>
     
     <main id="blog-posts">
