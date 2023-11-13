@@ -1,34 +1,13 @@
 document.addEventListener('DOMContentLoaded', () => {
     const blogPosts = [
         {
-            title: "A Friends Perspective",
+            title: "The best bedtime story, every night",
             date: "2023-01-01",
-            content: "After speaking to my best friend on the phone today, I learned the importance of finding a way to stay healthy that works for you. Understanding everyone is different is very important."
+            content: "Welcome to Turner Tales, where bedtime stories come alive with a touch of magic and a dash of your child’s imagination! Let’s get started on creating a whimsical adventure for tonight Enter the Hero’s Name: Choose a fun and quirky name for your character. It could be anything from Glitterbug to Captain Noodle. Pick an Animal Companion: Select from our wide range of animals to accompany your hero on their journey. Some popular choices are: A wise-cracking turtle named Turbo Tim. A gentle elephant who loves to dance, called Boogie Bubbles. A ninja cat with lightning-fast reflexes, known as Shadow Whiskers. Choose a Personality Trait: Give your character depth with a fun personality trait. Here are some you can choose from: Giggly and jolly – they find everything amusing! Mischievously clever – always has a trick up their sleeve. Brave and bold – no challenge is too big! Create the Story: Click the “Create Story” button and watch as the AI spins a tale featuring the name, animal, and trait you’ve chosen. Read and Enjoy! In moments, you’ll have a delightful story to read to your child, filled with laughter, lessons, and endearing moments. Remember, with Turner Tales, every night is a new adventure!"
         },
         {
-            title: "Blog Post 2",
-            date: "2023-01-02",
-            content: "This is the second blog post content."
-        },
-        {
-            title: "Blog Post 3",
-            date: "2023-01-02",
-            content: "Test 1234"
-        },
-        {
-            title: "Blog Post 4",
-            date: "2023-01-02",
-            content: "Test 1234567"
-        },
-        {
-            title: "Blog Post 5",
-            date: "2023-01-02",
-            content: "Test 1234"
-        },
-        {
-            title: "Blog Post 6",
-            date: "2023-01-02",
-            content: "Test 1234"
+            title: "",
+            content: ""
         }
         // Add more blog posts here
     ];
@@ -51,7 +30,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     //add a click event listener to the button
     button.addEventListener('click', function() {
-        alert('Button was clicked!');
+        alert('Our developers are working hard to get this feature working. Stay tuned!');
     });
  });
  document.getElementById('myForm').addEventListener('submit', function(event) {
