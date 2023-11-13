@@ -16,17 +16,17 @@ document.addEventListener('DOMContentLoaded', () => {
             content: "Test 1234"
         },
         {
-            title: "Blog Post 3",
+            title: "Blog Post 4",
+            date: "2023-01-02",
+            content: "Test 1234567"
+        },
+        {
+            title: "Blog Post 5",
             date: "2023-01-02",
             content: "Test 1234"
         },
         {
-            title: "Blog Post 3",
-            date: "2023-01-02",
-            content: "Test 1234"
-        },
-        {
-            title: "Blog Post 3",
+            title: "Blog Post 6",
             date: "2023-01-02",
             content: "Test 1234"
         },
