@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     const blogPosts = [
         {
-            title: "Blog Post 1",
+            title: "A Friends Perspective",
             date: "2023-01-01",
-            content: "This is the first blog post content."
+            content: "After speaking to my best friend on the phone today, I learned the importance of finding a way to stay healthy that works for you. Understanding everyone is different is very important"
         },
         {
             title: "Blog Post 2",
