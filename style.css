@@ -32,3 +32,18 @@ footer {
     background: #333;
     color: #fff;
 }
+
+button {
+    font-size: medium;
+}
+form {
+    font-size: medium;
+}
+
+input[type=text], input[type=email] {
+    font-size: medium;
+}
+
+input[type=submit] {
+    font-size: medium;
+}

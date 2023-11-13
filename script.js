@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', () => {
             title: "Blog Post 6",
             date: "2023-01-02",
             content: "Test 1234"
-        },
+        }
         // Add more blog posts here
     ];
 
@@ -44,4 +44,23 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
         blogPostsContainer.appendChild(article);
     });
+});
+document.addEventListener('DOMContentLoaded', (event) => {
+    //get button element
+    const button = document.getElementById('myButton');
+
+    //add a click event listener to the button
+    button.addEventListener('click', function() {
+        alert('Button was clicked!');
+    });
+ });
+ document.getElementById('myForm').addEventListener('submit', function(event) {
+    event.preventDefault(); // Prevents the default form submission action
+
+    // Fetch values from form
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+
+    // Do something with the form data
+    console.log('Name:', name, 'Email:', email);
 });
